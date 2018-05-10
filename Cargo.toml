@@ -1,0 +1,17 @@
+[package]
+name = "wasm-xss-game"
+version = "0.1.0"
+authors = ["quininer <quininer@live.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wee_alloc = "=0.4.0"
+wasm-bindgen = { git = "https://github.com/rustwasm/wasm-bindgen", rev = "06664b34ce1011be58949fef0e1ed2186d84d35b" }
+base64 = "=0.9.1"
+
+[profile.release]
+debug = true
+opt-level = "s"
+lto = true

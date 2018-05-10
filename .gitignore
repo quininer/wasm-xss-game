@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+index/wasm_xss_game.d.ts
+index/wasm_xss_game.js
+index/wasm_xss_game_bg.wasm
