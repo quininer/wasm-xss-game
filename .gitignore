@@ -1,6 +1,5 @@
 /target
 **/*.rs.bk
-Cargo.lock
 
 index/wasm_xss_game.d.ts
 index/wasm_xss_game.js
